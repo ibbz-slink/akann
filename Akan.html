@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title> Akan names </title>
+     <head>
+     <script src="JS script.js"></script>
+            
+            <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link href="https://fonts.googleapis.com/css?family=Fugaz+One&display=swap" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+ <body>
+          <div class="container">
+              <div class="jumbotron"text-center>
+                  <h1>AKAN NAMES</h1>
+                  <p>This is an application where you input your date of birth and the year to give you an akan name according to the day you were born</p>
+              </div>  
+              <!---- This is a brief description of the application's functionality-->          
+              <div class="row">
+                 
+                    <div class="col-md-4">
+                      <h2><b>BIRTHDAY INFORMATION</h2></b>
+                      You have to enter  your birth details in this format (mm/dd/yy).
+                      <ul>
+                          <li>dd=The day</li>
+                          <li>mm=The month</li>
+                          <li>yyyy=The year</li>
+        </div>
+                    <div class="col-md-4">
+                      <h2><b>GENDER</b></h2>
+                         choose your gender either Male or Female field provided since your akan name will be outputed only when you have provided the gender and your valid dates so you need to understand that the gender section is important.
+                    </div>
+                   
+              </div>
+              <div class="space"></div>
+              
+              <!--The user input form-->
+              <form id="form_data"  class="form row">
+             
+                      <div class="form-group row">
+                            <label class="label-control ">Enter your date of birth:</label>
+                            <input class="form-control form-control-sm col-md-6" type="date" id="birthdate" value="" placeholder="Enter your dateofbirth"><br/>    
+                      </div>                       
+                 
+                        <div class="form-group row">
+                            <label>Add gender:</label>
+                            <select id="gender" class="form-control form-control-sm">
+                                <option>Gender</option>
+                                <option>Male</option>
+                                <option>Female</option><br>
+                            </select>
+                        </div>  
+                        <div class="row2">
+                        
+                            <button type="button" class="btn btn-success btn-sm" value="submit" onclick="akanNames()">submit</button>
+                        
+                        </div>
+                            <!-- Result output -->
+                    
+                            <p id="display" class="col-md-12"></p>
+       
+                </form>
+               
+          </div>
+          
+            <!-- begining of the footer -->
+            <div class="footer-area-bottom">
+                 <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            
+                             
+                              </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="copyright text-center">
+                                <p>
+
+                            </div> 
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <script src="script.js"></script>
+ </body>
+</html>
+
+
