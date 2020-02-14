@@ -5,7 +5,7 @@
 {AKAN NAMING SYSTEM}
 ## Technologies Used
 {languages used html;css'js}
-## Support and contact details
+## Support and contact detail
 {0782185222}
 ### License
 MIT License
